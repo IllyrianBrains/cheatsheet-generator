@@ -1,0 +1,74 @@
+{
+    "title": "Business Analyst Transitioning to AI & Machine Learning",
+    "subtitle": "Cheatsheet for an Employee Development Plan",
+    "entries": {
+        "skills": {
+            "show_description": false,
+            "items": [
+                { "name": "Data Analysis and Visualization", "status": "achieved", "description": "Strong foundation in data analytics, essential for AI applications in business" },
+                { "name": "Python for Data Science", "status": "next", "description": "Proficiency in Python programming for data manipulation, analysis, and modeling" },
+                { "name": "Statistical Analysis and Probability", "status": "next", "description": "Understanding key statistical concepts used in machine learning algorithms" },
+                { "name": "Machine Learning Fundamentals", "status": "next", "description": "Knowledge of core ML algorithms and concepts, such as regression, classification, and clustering" },
+                { "name": "Business Applications of AI", "status": "next", "description": "Identifying practical AI applications for business problems and opportunities" },
+                { "name": "Deep Learning Basics", "status": "future", "description": "Introduction to neural networks, deep learning, and frameworks like TensorFlow and PyTorch" },
+                { "name": "Natural Language Processing (NLP)", "status": "future", "description": "Using NLP techniques to analyze and derive insights from text data in business contexts" }
+            ]
+        },
+        "tools": {
+            "show_description": true,
+            "items": [
+                { "name": "Python and Jupyter Notebook", "status": "achieved", "description": "Core tools for data science and machine learning experimentation" },
+                { "name": "SQL for Data Extraction", "status": "achieved", "description": "Essential skill for accessing and manipulating data in databases" },
+                { "name": "Pandas, NumPy, and Scikit-Learn", "status": "next", "description": "Python libraries for data manipulation, numerical analysis, and machine learning" },
+                { "name": "Power BI and Tableau", "status": "next", "description": "Data visualization tools for communicating insights from ML models" },
+                { "name": "TensorFlow and Keras", "status": "future", "description": "Deep learning frameworks for building neural networks" }
+            ]
+        },
+        "learning and development": {
+            "show_description": false,
+            "items": [
+                { "name": "Data Science Professional Certificate", "type": "Certification", "status": "achieved", "description": "Foundational data science certification", "provider": "IBM" },
+                { "name": "Machine Learning for Business", "type": "Course", "status": "next", "description": "Course focused on practical ML applications in business", "provider": "Coursera" },
+                { "name": "Python for Data Science and AI", "type": "Course", "status": "next", "description": "Covers Python programming for data science tasks", "provider": "edX" },
+                { "name": "AI for Everyone", "type": "Course", "status": "next", "description": "Introduction to AI concepts for business professionals", "provider": "Coursera (Andrew Ng)" },
+                { "name": "Deep Learning Specialization", "type": "Specialization", "status": "future", "description": "Comprehensive series on deep learning techniques", "provider": "Coursera (Andrew Ng)" },
+                { "name": "Natural Language Processing with Python", "type": "Course", "status": "future", "description": "Hands-on NLP course using Python", "provider": "Udacity" }
+            ]
+        },
+        "communication": {
+            "show_description": false,
+            "items": [
+                { "name": "Cross-Functional Collaboration", "status": "achieved", "description": "Experience collaborating with teams across different business units" },
+                { "name": "Data Storytelling", "status": "next", "description": "Ability to explain data insights and model results in a clear, compelling way" },
+                { "name": "Technical Writing for Non-Technical Stakeholders", "status": "next", "description": "Writing documentation and reports that are accessible to non-technical audiences" },
+                { "name": "AI Ethics and Responsible AI Communication", "status": "future", "description": "Understanding and communicating the ethical considerations of AI applications" }
+            ]
+        }
+    },
+    "career_scenarios": [
+        {
+            "name": "Data Scientist in Business Intelligence",
+            "status": "next",
+            "description": "Apply machine learning techniques to generate insights and improve business intelligence.",
+            "notes": "Develop a portfolio of ML projects focused on business problems, and strengthen Python and SQL skills."
+        },
+        {
+            "name": "Machine Learning Engineer for Business Applications",
+            "status": "next",
+            "description": "Design and deploy machine learning models to solve business challenges.",
+            "notes": "Gain experience with ML deployment pipelines, and focus on business-specific use cases in ML model development."
+        },
+        {
+            "name": "Product Manager in AI Solutions",
+            "status": "future",
+            "description": "Manage the development of AI-powered products tailored for business applications.",
+            "notes": "Develop expertise in product management, particularly for tech products, and build understanding of user-centric AI solutions."
+        },
+        {
+            "name": "AI Consultant for Business Transformation",
+            "status": "future",
+            "description": "Advise companies on implementing AI to drive digital transformation and improve business operations.",
+            "notes": "Focus on building consulting skills, understanding business challenges, and identifying how AI can address these needs effectively."
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "title": "Junior Programmer to Senior Engineer",
+    "subtitle": "Cheatsheet for an Employee Development Plan",
+    "entries": {
+        "skills": {
+            "show_description": false,
+            "items": [
+                { "name": "Data Structures and Algorithms", "status": "achieved", "description": "In-depth knowledge of algorithms and data structures to improve code efficiency" },
+                { "name": "Object-Oriented Programming (OOP)", "status": "achieved", "description": "Design patterns and principles for creating modular, scalable Python code" },
+                { "name": "Database Management (SQL and NoSQL)", "status": "next", "description": "Working knowledge of SQL and NoSQL databases for data persistence" },
+                { "name": "Testing and Debugging", "status": "next", "description": "Writing unit, integration, and functional tests for code reliability and maintainability" },
+                { "name": "System Design and Architecture", "status": "future", "description": "Understanding system design patterns, scalability, and architecture principles" },
+                { "name": "Distributed Systems", "status": "future", "description": "Designing and implementing distributed systems for high availability and fault tolerance" }
+            ]
+        },
+        "tools": {
+            "show_description": false,
+            "items": [
+                { "name": "Git and Version Control", "status": "achieved", "description": "Version control skills for collaborative and reliable code management" },
+                { "name": "Docker and Containerization", "status": "achieved", "description": "Creating isolated, reproducible environments for applications" },
+                { "name": "SQL and NoSQL Databases (PostgreSQL, MongoDB)", "status": "next", "description": "Experience with both relational and NoSQL databases for different use cases" },
+                { "name": "Unit Testing Frameworks (e.g., pytest)", "status": "next", "description": "Proficiency in writing and running tests to ensure code quality" },
+                { "name": "CI/CD Tools (Jenkins, GitHub Actions)", "status": "future", "description": "Setting up automated testing, deployment pipelines, and continuous integration" },
+                { "name": "AWS or GCP for Cloud Computing", "status": "future", "description": "Deploying and managing applications in the cloud for scalability and resilience" },
+                { "name": "Monitoring Tools (Prometheus, Grafana)", "status": "future", "description": "Using monitoring tools to ensure application performance and detect issues early" }
+            ]
+        },
+        "learning and development": {
+            "show_description": false,
+            "items": [
+                { "name": "Python Programming Specialization", "type": "Certification", "status": "achieved", "description": "Certification in advanced Python programming concepts", "provider": "Coursera" },
+                { "name": "Data Structures and Algorithms in Python", "type": "Course", "status": "achieved", "description": "Detailed course on optimizing Python code with efficient data structures", "provider": "Udacity" },
+                { "name": "Object-Oriented Design in Python", "type": "Course", "status": "achieved", "description": "Learn OOP principles and design patterns to build modular code", "provider": "Pluralsight" },
+                { "name": "System Design Primer", "type": "Workshop", "status": "next", "description": "Foundational workshop on system design concepts for building scalable systems", "provider": "Educative.io" },
+                { "name": "Cloud Practitioner Certification", "type": "Certification", "status": "future", "description": "Foundational knowledge of cloud services, networking, and storage", "provider": "AWS" },
+                { "name": "Advanced Testing and CI/CD", "type": "Course", "status": "future", "description": "Comprehensive course on testing strategies and CI/CD pipelines", "provider": "LinkedIn Learning" }
+            ]
+        },
+        "communication": {
+            "show_description": false,
+            "items": [
+                { "name": "Code Reviews and Collaboration", "status": "achieved", "description": "Experience with peer code reviews and collaborative development practices" },
+                { "name": "Documentation Practices", "status": "next", "description": "Writing effective documentation for code readability and maintainability" },
+                { "name": "Mentoring Junior Developers", "status": "future", "description": "Providing guidance and support to junior developers" },
+                { "name": "Cross-Functional Communication", "status": "future", "description": "Communicating effectively with non-technical teams about technical work" }
+            ]
+        }
+    },
+    "career_scenarios": [
+        {
+            "name": "Backend Engineer (Intermediate Level)",
+            "status": "next",
+            "description": "Focus on building scalable backend systems and improving performance.",
+            "notes": "Develop skills in databases, RESTful APIs, and Python frameworks such as Django or Flask."
+        },
+        {
+            "name": "Senior Software Engineer",
+            "status": "future",
+            "description": "Lead engineering projects, architect solutions, and mentor junior team members.",
+            "notes": "Gain expertise in system design and focus on developing leadership skills."
+        },
+        {
+            "name": "Cloud Solutions Architect",
+            "status": "future",
+            "description": "Design and manage cloud-based architectures for scalable applications.",
+            "notes": "Develop expertise in AWS or GCP, and complete a cloud architect certification."
+        },
+        {
+            "name": "Engineering Team Lead",
+            "status": "future",
+            "description": "Lead a team of developers, manage project timelines, and ensure code quality.",
+            "notes": "Focus on people management skills, project management, and technical mentoring."
+        },
+        {
+            "name": "Technical Product Manager (Python Focus)",
+            "status": "future",
+            "description": "Transition to a role focusing on product management for Python-based solutions.",
+            "notes": "Develop skills in product strategy, customer interaction, and feature prioritization."
+        }
+    ]
+}
