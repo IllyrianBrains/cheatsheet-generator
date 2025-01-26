@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Shëndeti Mendor dhe Burnout</title>
+    <title>Shëndeti Mendor dhe <b>Burnout</b></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
     <style>
@@ -14,9 +14,33 @@
             background-color: #f9f6fc;
         }
 
-        h1,
+        h1 {
+            color: white;
+        }
+
         h3 {
             color: #6a0dad;
+        }
+
+        .header {
+            background-color: #6a0dad;
+            color: white;
+            padding: 20px 15px;
+            border-radius: 8px;
+        }
+
+        .header-title {
+            font-size: 1.6rem;
+            margin-bottom: 1px;
+        }
+
+        .header-subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 0;
+        }
+
+        .logo {
+            height: 60px;
         }
 
         .section {
@@ -28,7 +52,6 @@
             color: grey;
         }
 
-        /* Icon styles */
         .icon {
             margin-right: 10px;
         }
@@ -41,7 +64,6 @@
             color: #ff7f50;
         }
 
-        /* Table styling */
         table {
             width: 100%;
             border-collapse: collapse;
@@ -64,10 +86,17 @@
 
 <body>
     <div class="container">
-        <br>
-        <h2 class="text-center">Shëndeti Mendor dhe Burnout</h2>
-        <h5 class="text-center text-muted">Udhëzues për Ndërgjegjësim dhe Qëndrueshmëri</h5>
-        <hr>
+
+        <br><br>
+        <!-- Header Section -->
+        <div class="header d-flex justify-content-between align-items-center">
+            <div>
+                <h1 class="header-title">Shëndeti Mendor dhe <b>Burnout</b></h1>
+                <p class="header-subtitle">Kur lodhja e tepërt bëhet përgjegjëse për dëme afatgjata.</p>
+            </div>
+            <img src="path_to_logo.png" alt="Logo" class="logo">
+        </div>
+        <br><br>
 
         <div class="row">
             <!-- Left Column -->
@@ -75,15 +104,19 @@
                 
                 
                 <div class="section">
-                    <h3><i class="fas fa-heartbeat icon"></i> Përcaktimi</h3>
+                    <h3>
+                        <i class="fas fa-book icon"></i>
+                        Përcaktimi
+                    </h3>
                     <hr>
                     <div>
                         
                         <div class="row-item">
                             
+                            
                             <span class="achieved">
-                                <i class="fas fa-hand-holding-heart icon"></i>
-                                <strong>Cfarë është burnout?</strong>
+                                <i class="fas fa-info-circle icon"></i>
+                                <strong>Çfarë është burnout?</strong>
                                 <span class="description">Gjendje e rraskapitjes fizike dhe mendore nga stresi i vazhdueshëm. Shfaqen ndjenja të shterimit të energjive, mungesës së motivimit dhe vështirësi në përballimin e detyrave të përditshme.</span>
                             </span>
                             
@@ -91,9 +124,10 @@
                         
                         <div class="row-item">
                             
+                            
                             <span class="future">
-                                <i class="fas fa-leaf icon"></i>
-                                <strong>Shkaqet kryesore të burnout-it</strong>
+                                <i class="fas fa-info-circle icon"></i>
+                                <strong>Shkaqet kryesore të burnout-it?</strong>
                                 <span class="description">Presioni i punës, ndjenja e mungesës së kontrollit dhe pritshmëritë e larta personale. Mungesa e mbështetjes nga kolegët ose familja mund ta përkeqësojë situatën.</span>
                             </span>
                             
@@ -101,8 +135,9 @@
                         
                         <div class="row-item">
                             
+                            
                             <span class="future">
-                                <i class="fas fa-leaf icon"></i>
+                                <i class="fas fa-info-circle icon"></i>
                                 <strong>Dallimi mes stresit dhe burnout?</strong>
                                 <span class="description">Stresi është i përkohshëm dhe shpesh ndodh për shkak të një situate specifike, ndërsa burnout është një gjendje e zgjatur që vjen nga akumulimi i stresit dhe mungesa e rikuperimit.</span>
                             </span>
@@ -114,17 +149,20 @@
                 
                 
                 
-                
                 <div class="section">
-                    <h3><i class="fas fa-heartbeat icon"></i> Impakti në përditshmëri</h3>
+                    <h3>
+                        <i class="fas fa-calendar-day icon"></i>
+                        Impakti në përditshmëri
+                    </h3>
                     <hr>
                     <div>
                         
                         <div class="row-item">
                             
+                            
                             <span class="achieved">
-                                <i class="fas fa-hand-holding-heart icon"></i>
-                                <strong>Shëndeti mendor</strong>
+                                <i class="fas fa-heartbeat icon"></i>
+                                <strong>Shëndeti mendor?</strong>
                                 <span class="description">Rritje e ankthit dhe depresionit.</span>
                             </span>
                             
@@ -132,9 +170,10 @@
                         
                         <div class="row-item">
                             
+                            
                             <span class="future">
-                                <i class="fas fa-leaf icon"></i>
-                                <strong>Shëndeti fizik</strong>
+                                <i class="fas fa-heartbeat icon"></i>
+                                <strong>Shëndeti fizik?</strong>
                                 <span class="description">Burnout rrit rrezikun për sëmundje kronike.</span>
                             </span>
                             
@@ -142,9 +181,10 @@
                         
                         <div class="row-item">
                             
+                            
                             <span class="future">
-                                <i class="fas fa-leaf icon"></i>
-                                <strong>Marrëdhëniet personale</strong>
+                                <i class="fas fa-heartbeat icon"></i>
+                                <strong>Marrëdhëniet personale?</strong>
                                 <span class="description">Dëmton komunikimin dhe lidhjet sociale.</span>
                             </span>
                             
@@ -152,9 +192,10 @@
                         
                         <div class="row-item">
                             
+                            
                             <span class="future">
-                                <i class="fas fa-leaf icon"></i>
-                                <strong>Performanca në punë</strong>
+                                <i class="fas fa-heartbeat icon"></i>
+                                <strong>Performanca në punë?</strong>
                                 <span class="description">Ul produktivitetin dhe fokusin.</span>
                             </span>
                             
@@ -165,17 +206,20 @@
                 
                 
                 
-                
                 <div class="section">
-                    <h3><i class="fas fa-heartbeat icon"></i> Neuroshkenca</h3>
+                    <h3>
+                        <i class="fas fa-brain icon"></i>
+                        Neuroshkenca
+                    </h3>
                     <hr>
                     <div>
                         
                         <div class="row-item">
                             
+                            
                             <span class="achieved">
-                                <i class="fas fa-hand-holding-heart icon"></i>
-                                <strong>Roli i cortisol-it</strong>
+                                <i class="fas fa-flask icon"></i>
+                                <strong>Roli i cortisol-it...</strong>
                                 <span class="description">Hormoni i stresit ndikon te kujtesa dhe përqendrimi.</span>
                             </span>
                             
@@ -183,9 +227,10 @@
                         
                         <div class="row-item">
                             
+                            
                             <span class="future">
-                                <i class="fas fa-leaf icon"></i>
-                                <strong>Gjumi dhe funksionet e trurit</strong>
+                                <i class="fas fa-flask icon"></i>
+                                <strong>Gjumi dhe funksioni i trurit...</strong>
                                 <span class="description">Gjumi i mirë ndihmon rregullimin e stresit.</span>
                             </span>
                             
@@ -193,9 +238,10 @@
                         
                         <div class="row-item">
                             
+                            
                             <span class="future">
-                                <i class="fas fa-leaf icon"></i>
-                                <strong>Plasticiteti i trurit</strong>
+                                <i class="fas fa-flask icon"></i>
+                                <strong>Plasticiteti i trurit...</strong>
                                 <span class="description">Meditimi ndihmon në përmirësimin e qelizave nervore.</span>
                             </span>
                             
@@ -203,7 +249,6 @@
                         
                     </div>
                 </div>
-                
                 
                 
                 
@@ -220,17 +265,20 @@
                 
                 
                 
-
                 <div class="section">
-                    <h3><i class="fas fa-heartbeat icon"></i> Ndërtimi i qëndrueshmërisë</h3>
+                    <h3>
+                        <i class="fas fa-leaf icon"></i>
+                        Praktika të shëndetshme
+                    </h3>
                     <hr>
                     <div>
                         
                         <div class="row-item">
                             
+                            
                             <span class="achieved">
-                                <i class="fas fa-hand-holding-heart icon"></i>
-                                <strong>Praktikat mendore dhe emocionale</strong>
+                                <i class="fas fa-dumbbell icon"></i>
+                                <strong>Praktikat mendore dhe emocionale!</strong>
                                 <span class="description">Përfshin meditimin, frymëmarrjen e thellë dhe ndërgjegjësimin për të ulur stresin dhe përmirësuar fokusin. Krijo një rutinë të përditshme me 5-10 minuta reflektim ose meditim për të rritur qetësinë mendore.</span>
                             </span>
                             
@@ -238,9 +286,10 @@
                         
                         <div class="row-item">
                             
+                            
                             <span class="future">
-                                <i class="fas fa-leaf icon"></i>
-                                <strong>Mbështetja sociale dhe kufijtë personalë</strong>
+                                <i class="fas fa-dumbbell icon"></i>
+                                <strong>Mbështetja sociale dhe kufijtë personalë!</strong>
                                 <span class="description">Ndërtimi i një rrjeti mbështetës me miq dhe familje ndihmon në përballimin e stresit. Vendosja e kufijve të shëndetshëm në punë dhe në jetën personale ruan mirëqenien pa ndjenja faji.</span>
                             </span>
                             
@@ -248,9 +297,10 @@
                         
                         <div class="row-item">
                             
+                            
                             <span class="future">
-                                <i class="fas fa-leaf icon"></i>
-                                <strong>Aktivitetet fizike dhe vetë-kujdesi</strong>
+                                <i class="fas fa-dumbbell icon"></i>
+                                <strong>Aktivitetet fizike dhe vetë-kujdesi!</strong>
                                 <span class="description">Aktivitetet si ecja, yoga dhe ushtrimet aerobike ulin stresin dhe përmirësojnë humorin përmes endorfinave.</span>
                             </span>
                             
@@ -273,18 +323,24 @@
                         <tbody>
                             
                             <tr>
-                                <td>Punonjësja e mbingarkuar</td>
+                                <td>
+                                    Punonjësja e mbingarkuar
+                                </td>
                                 <td>Një profesioniste që përballet me një fluks të madh detyrash dhe afate të ngushta, duke ndjerë presion të vazhdueshëm për të përfunduar punën në kohë.</td>
                             </tr>
                             
                             <tr>
-                                <td>Student nën presion</td>
-                                <td>Një student që përgatitet për provime të rëndësishme, shpesh duke kaluar orë të gjata duke studiuar dhe duke përjetuar stres nga pritshmëritë e larta akademike. </td>
+                                <td>
+                                    Student nën presion
+                                </td>
+                                <td>Një student që përgatitet për provime të rëndësishme, shpesh duke kaluar orë të gjata duke studiuar dhe duke përjetuar stres nga pritshmëritë e larta akademike.</td>
                             </tr>
                             
                             <tr>
-                                <td>Izolimi nga puna në distancë</td>
-                                <td>Një profesionist që punon nga shtëpia për një periudhë të gjatë mund të përjetojë ndjenjë të thellë izolimi dhe mungesë ndërveprimi social. </td>
+                                <td>
+                                    Izolimi nga puna në distancë
+                                </td>
+                                <td>Një profesionist që punon nga shtëpia për një periudhë të gjatë mund të përjetojë ndjenjë të thellë izolimi dhe mungesë ndërveprimi social.</td>
                             </tr>
                             
                         </tbody>

@@ -1,109 +1,128 @@
 {
-    "title": "Shëndeti Mendor dhe Burnout",
-    "subtitle": "Udhëzues për Ndërgjegjësim dhe Qëndrueshmëri",
+    "title": "Shëndeti Mendor dhe <b>Burnout</b>",
+    "subtitle": "Kur lodhja e tepërt bëhet përgjegjëse për dëme afatgjata.",
     "entries": {
         "përcaktimi": {
+            "icon": "fas fa-book",
             "show_description": true,
             "items": [
                 {
-                    "name": "Cfarë është burnout?",
+                    "name": "Çfarë është burnout?",
                     "status": "achieved",
+                    "icon": "fas fa-info-circle",
                     "description": "Gjendje e rraskapitjes fizike dhe mendore nga stresi i vazhdueshëm. Shfaqen ndjenja të shterimit të energjive, mungesës së motivimit dhe vështirësi në përballimin e detyrave të përditshme."
                 },
                 {
-                    "name": "Shkaqet kryesore të burnout-it",
+                    "name": "Shkaqet kryesore të burnout-it?",
                     "status": "future",
+                    "icon": "fas fa-info-circle",
                     "description": "Presioni i punës, ndjenja e mungesës së kontrollit dhe pritshmëritë e larta personale. Mungesa e mbështetjes nga kolegët ose familja mund ta përkeqësojë situatën."
                 },
                 {
                     "name": "Dallimi mes stresit dhe burnout?",
                     "status": "future",
+                    "icon": "fas fa-info-circle",
                     "description": "Stresi është i përkohshëm dhe shpesh ndodh për shkak të një situate specifike, ndërsa burnout është një gjendje e zgjatur që vjen nga akumulimi i stresit dhe mungesa e rikuperimit."
                 }
             ]
         },
         "impakti në përditshmëri": {
+            "icon": "fas fa-calendar-day",
             "show_description": false,
             "items": [
                 {
-                    "name": "Shëndeti mendor",
+                    "name": "Shëndeti mendor?",
                     "status": "achieved",
+                    "icon": "fas fa-heartbeat",
                     "description": "Rritje e ankthit dhe depresionit."
                 },
                 {
-                    "name": "Shëndeti fizik",
+                    "name": "Shëndeti fizik?",
                     "status": "future",
+                    "icon": "fas fa-heartbeat",
                     "description": "Burnout rrit rrezikun për sëmundje kronike."
                 },
                 {
-                    "name": "Marrëdhëniet personale",
+                    "name": "Marrëdhëniet personale?",
                     "status": "future",
+                    "icon": "fas fa-heartbeat",
                     "description": "Dëmton komunikimin dhe lidhjet sociale."
                 },
                 {
-                    "name": "Performanca në punë",
+                    "name": "Performanca në punë?",
                     "status": "future",
+                    "icon": "fas fa-heartbeat",
                     "description": "Ul produktivitetin dhe fokusin."
                 }
             ]
         },
         "neuroshkenca": {
+            "icon": "fas fa-brain",
             "show_description": true,
             "items": [
                 {
-                    "name": "Roli i cortisol-it",
+                    "name": "Roli i cortisol-it...",
                     "status": "achieved",
+                    "icon": "fas fa-flask",
                     "description": "Hormoni i stresit ndikon te kujtesa dhe përqendrimi."
                 },
                 {
-                    "name": "Gjumi dhe funksionet e trurit",
+                    "name": "Gjumi dhe funksioni i trurit...",
                     "status": "future",
+                    "icon": "fas fa-flask",
                     "description": "Gjumi i mirë ndihmon rregullimin e stresit."
                 },
                 {
-                    "name": "Plasticiteti i trurit",
+                    "name": "Plasticiteti i trurit...",
                     "status": "future",
+                    "icon": "fas fa-flask",
                     "description": "Meditimi ndihmon në përmirësimin e qelizave nervore."
                 }
             ]
         },
-        "ndërtimi i qëndrueshmërisë": {
+        "Praktika të shëndetshme": {
+            "icon": "fas fa-leaf",
             "show_description": true,
             "items": [
                 {
-                    "name": "Praktikat mendore dhe emocionale",
+                    "name": "Praktikat mendore dhe emocionale!",
                     "status": "achieved",
+                    "icon": "fas fa-dumbbell",
                     "description": "Përfshin meditimin, frymëmarrjen e thellë dhe ndërgjegjësimin për të ulur stresin dhe përmirësuar fokusin. Krijo një rutinë të përditshme me 5-10 minuta reflektim ose meditim për të rritur qetësinë mendore."
                 },
                 {
-                    "name": "Mbështetja sociale dhe kufijtë personalë",
+                    "name": "Mbështetja sociale dhe kufijtë personalë!",
                     "status": "future",
+                    "icon": "fas fa-dumbbell",
                     "description": "Ndërtimi i një rrjeti mbështetës me miq dhe familje ndihmon në përballimin e stresit. Vendosja e kufijve të shëndetshëm në punë dhe në jetën personale ruan mirëqenien pa ndjenja faji."
                 },
                 {
-                    "name": "Aktivitetet fizike dhe vetë-kujdesi",
+                    "name": "Aktivitetet fizike dhe vetë-kujdesi!",
                     "status": "future",
+                    "icon": "fas fa-dumbbell",
                     "description": "Aktivitetet si ecja, yoga dhe ushtrimet aerobike ulin stresin dhe përmirësojnë humorin përmes endorfinave."
                 }
             ]
         }
-
     },
     "scenarios": [
         {
             "name": "Punonjësja e mbingarkuar",
             "status": "achieved",
+            "icon": "fas fa-briefcase",
             "description": "Një profesioniste që përballet me një fluks të madh detyrash dhe afate të ngushta, duke ndjerë presion të vazhdueshëm për të përfunduar punën në kohë."
         },
         {
             "name": "Student nën presion",
             "status": "achieved",
-            "description": "Një student që përgatitet për provime të rëndësishme, shpesh duke kaluar orë të gjata duke studiuar dhe duke përjetuar stres nga pritshmëritë e larta akademike. "
+            "icon": "fas fa-book",
+            "description": "Një student që përgatitet për provime të rëndësishme, shpesh duke kaluar orë të gjata duke studiuar dhe duke përjetuar stres nga pritshmëritë e larta akademike."
         },
         {
             "name": "Izolimi nga puna në distancë",
             "status": "future",
-            "description": "Një profesionist që punon nga shtëpia për një periudhë të gjatë mund të përjetojë ndjenjë të thellë izolimi dhe mungesë ndërveprimi social. "
+            "icon": "fas fa-laptop-house",
+            "description": "Një profesionist që punon nga shtëpia për një periudhë të gjatë mund të përjetojë ndjenjë të thellë izolimi dhe mungesë ndërveprimi social."
         }
-    ]    
+    ]
 }
