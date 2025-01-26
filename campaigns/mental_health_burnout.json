@@ -1,0 +1,109 @@
+{
+    "title": "Shëndeti Mendor dhe Burnout",
+    "subtitle": "Udhëzues për Ndërgjegjësim dhe Qëndrueshmëri",
+    "entries": {
+        "përcaktimi": {
+            "show_description": true,
+            "items": [
+                {
+                    "name": "Cfarë është burnout?",
+                    "status": "achieved",
+                    "description": "Gjendje e rraskapitjes fizike dhe mendore nga stresi i vazhdueshëm. Shfaqen ndjenja të shterimit të energjive, mungesës së motivimit dhe vështirësi në përballimin e detyrave të përditshme."
+                },
+                {
+                    "name": "Shkaqet kryesore të burnout-it",
+                    "status": "future",
+                    "description": "Presioni i punës, ndjenja e mungesës së kontrollit dhe pritshmëritë e larta personale. Mungesa e mbështetjes nga kolegët ose familja mund ta përkeqësojë situatën."
+                },
+                {
+                    "name": "Dallimi mes stresit dhe burnout?",
+                    "status": "future",
+                    "description": "Stresi është i përkohshëm dhe shpesh ndodh për shkak të një situate specifike, ndërsa burnout është një gjendje e zgjatur që vjen nga akumulimi i stresit dhe mungesa e rikuperimit."
+                }
+            ]
+        },
+        "impakti në përditshmëri": {
+            "show_description": false,
+            "items": [
+                {
+                    "name": "Shëndeti mendor",
+                    "status": "achieved",
+                    "description": "Rritje e ankthit dhe depresionit."
+                },
+                {
+                    "name": "Shëndeti fizik",
+                    "status": "future",
+                    "description": "Burnout rrit rrezikun për sëmundje kronike."
+                },
+                {
+                    "name": "Marrëdhëniet personale",
+                    "status": "future",
+                    "description": "Dëmton komunikimin dhe lidhjet sociale."
+                },
+                {
+                    "name": "Performanca në punë",
+                    "status": "future",
+                    "description": "Ul produktivitetin dhe fokusin."
+                }
+            ]
+        },
+        "neuroshkenca": {
+            "show_description": true,
+            "items": [
+                {
+                    "name": "Roli i cortisol-it",
+                    "status": "achieved",
+                    "description": "Hormoni i stresit ndikon te kujtesa dhe përqendrimi."
+                },
+                {
+                    "name": "Gjumi dhe funksionet e trurit",
+                    "status": "future",
+                    "description": "Gjumi i mirë ndihmon rregullimin e stresit."
+                },
+                {
+                    "name": "Plasticiteti i trurit",
+                    "status": "future",
+                    "description": "Meditimi ndihmon në përmirësimin e qelizave nervore."
+                }
+            ]
+        },
+        "ndërtimi i qëndrueshmërisë": {
+            "show_description": true,
+            "items": [
+                {
+                    "name": "Praktikat mendore dhe emocionale",
+                    "status": "achieved",
+                    "description": "Përfshin meditimin, frymëmarrjen e thellë dhe ndërgjegjësimin për të ulur stresin dhe përmirësuar fokusin. Krijo një rutinë të përditshme me 5-10 minuta reflektim ose meditim për të rritur qetësinë mendore."
+                },
+                {
+                    "name": "Mbështetja sociale dhe kufijtë personalë",
+                    "status": "future",
+                    "description": "Ndërtimi i një rrjeti mbështetës me miq dhe familje ndihmon në përballimin e stresit. Vendosja e kufijve të shëndetshëm në punë dhe në jetën personale ruan mirëqenien pa ndjenja faji."
+                },
+                {
+                    "name": "Aktivitetet fizike dhe vetë-kujdesi",
+                    "status": "future",
+                    "description": "Aktivitetet si ecja, yoga dhe ushtrimet aerobike ulin stresin dhe përmirësojnë humorin përmes endorfinave."
+                }
+            ]
+        }
+
+    },
+    "scenarios": [
+        {
+            "name": "Punonjësja e mbingarkuar",
+            "status": "achieved",
+            "description": "Një profesioniste që përballet me një fluks të madh detyrash dhe afate të ngushta, duke ndjerë presion të vazhdueshëm për të përfunduar punën në kohë."
+        },
+        {
+            "name": "Student nën presion",
+            "status": "achieved",
+            "description": "Një student që përgatitet për provime të rëndësishme, shpesh duke kaluar orë të gjata duke studiuar dhe duke përjetuar stres nga pritshmëritë e larta akademike. "
+        },
+        {
+            "name": "Izolimi nga puna në distancë",
+            "status": "future",
+            "description": "Një profesionist që punon nga shtëpia për një periudhë të gjatë mund të përjetojë ndjenjë të thellë izolimi dhe mungesë ndërveprimi social. "
+        }
+    ]    
+}
