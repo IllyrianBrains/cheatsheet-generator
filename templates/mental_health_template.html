@@ -10,7 +10,6 @@
         body {
             font-family: "Segoe UI", Arial, sans-serif;
             line-height: 1.8;
-            color: #333;
             background-color: #f9f6fc;
         }
 
@@ -49,7 +48,6 @@
             border: 2px solid #e0d6f5;
             border-radius: 10px;
             background-color: #fdfaff;
-            color: grey;
         }
 
         .icon {
@@ -116,20 +114,21 @@
                             {% if item.status == 'achieved' %}
                             <span class="achieved">
                                 <i class="{{ item_icon }} icon"></i>
-                                <strong>{{ item.name }}</strong>
-                                <span class="description">{{ item.description }}</span>
+                                <b>{{ item.name }}</b>
+                                {{ item.description }}
                             </span>
                             {% elif item.status == 'next' %}
                             <span class="next_step">
                                 <i class="{{ item_icon }} icon"></i>
-                                <strong>{{ item.name }}</strong>
-                                <span class="description">{{ item.description }}</span>
+                                <b>{{ item.name }}</b>
+                               {{ item.description }}
                             </span>
                             {% else %}
                             <span class="future">
+                        
                                 <i class="{{ item_icon }} icon"></i>
-                                <strong>{{ item.name }}</strong>
-                                <span class="description">{{ item.description }}</span>
+                                <b>{{ item.name }}</b>
+                                {{ item.description }}
                             </span>
                             {% endif %}
                         </div>
@@ -181,7 +180,7 @@
                 {% endfor %}
 
                 <div class="section">
-                    <h3><i class="fas fa-route icon"></i> Skenare</h3>
+                    <h3><i class="fas fa-route icon"></i> Shembuj</h3>
                     <table>
                         <thead>
                             <tr>

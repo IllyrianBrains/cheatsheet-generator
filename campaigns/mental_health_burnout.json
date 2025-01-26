@@ -8,7 +8,7 @@
             "items": [
                 {
                     "name": "Çfarë është burnout?",
-                    "status": "achieved",
+                    "status": "future",
                     "icon": "fas fa-info-circle",
                     "description": "Gjendje e rraskapitjes fizike dhe mendore nga stresi i vazhdueshëm. Shfaqen ndjenja të shterimit të energjive, mungesës së motivimit dhe vështirësi në përballimin e detyrave të përditshme."
                 },
@@ -27,12 +27,12 @@
             ]
         },
         "impakti në përditshmëri": {
-            "icon": "fas fa-calendar-day",
+            "icon": "fas fa-user-injured",
             "show_description": false,
             "items": [
                 {
                     "name": "Shëndeti mendor?",
-                    "status": "achieved",
+                    "status": "future",
                     "icon": "fas fa-heartbeat",
                     "description": "Rritje e ankthit dhe depresionit."
                 },
@@ -62,7 +62,7 @@
             "items": [
                 {
                     "name": "Roli i cortisol-it...",
-                    "status": "achieved",
+                    "status": "future",
                     "icon": "fas fa-flask",
                     "description": "Hormoni i stresit ndikon te kujtesa dhe përqendrimi."
                 },
@@ -81,12 +81,12 @@
             ]
         },
         "Praktika të shëndetshme": {
-            "icon": "fas fa-leaf",
+            "icon": "fas fa-seedling",
             "show_description": true,
             "items": [
                 {
                     "name": "Praktikat mendore dhe emocionale!",
-                    "status": "achieved",
+                    "status": "future",
                     "icon": "fas fa-dumbbell",
                     "description": "Përfshin meditimin, frymëmarrjen e thellë dhe ndërgjegjësimin për të ulur stresin dhe përmirësuar fokusin. Krijo një rutinë të përditshme me 5-10 minuta reflektim ose meditim për të rritur qetësinë mendore."
                 },
