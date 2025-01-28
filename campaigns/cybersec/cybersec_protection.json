@@ -1,0 +1,128 @@
+{
+    "title": "Siguria Kibernetike dhe AI për Profesionistët: Praktika dhe Rekomandime",
+    "subtitle": "Strategji të avancuara për ruajtjen e të dhënave dhe përdorimin e sigurt të AI në mjedise profesionale.",
+    "entries": {
+        "përcaktimi": {
+            "icon": "fas fa-shield-alt",
+            "show_description": true,
+            "items": [
+                {
+                    "name": "Çfarë është siguria kibernetike?",
+                    "status": "future",
+                    "icon": "fas fa-info-circle",
+                    "description": "Praktika për të mbrojtur sistemet, rrjetet dhe të dhënat kundër sulmeve të sofistikuara duke përdorur teknologji bashkëkohore."
+                },
+                {
+                    "name": " Rëndësia e privatësisë së të dhënave?",
+                    "status": "future",
+                    "icon": "fas fa-info-circle",
+                    "description": "Privatësia e të dhënave garanton që informacioni personal të mos përdoret, shfrytëzohet ose shpërndahet pa miratim."
+                },
+                {
+                    "name": "Kërcënimet më të zakonshme?",
+                    "status": "future",
+                    "icon": "fas fa-info-circle",
+                    "description": "Përdorimi i AI për phishing të avancuar, analiza të të dhënave të paautorizuara dhe manipulimi i informacionit profesional."
+                }
+            ]
+        },
+        "rreziqet e mundshme": {
+            "icon": "fas fa-exclamation-triangle",
+            "show_description": false,
+            "items": [
+                {
+                    "name": "Vjedhja e informacionit përmes AI?",
+                    "status": "future",
+                    "icon": "fas fa-id-card",
+                    "description": "Të dhënat e ndjeshme si strategjitë e biznesit ose informacionet klientore mund të përdoren për mashtrime."
+                },
+                {
+                    "name": "Dobësitë në përdorimin e modeleve AI?",
+                    "status": "future",
+                    "icon": "fas fa-robot",
+                    "description": "Modelet AI mund të përpunojnë të dhëna pa qartësi mbi mënyrën se si ruhen ose ndahen."
+                },
+                {
+                    "name": "Rrjedhja e të dhënave përmes platformave cloud?",
+                    "status": "future",
+                    "icon": "fas fa-cloud",
+                    "description": "Përdorimi i platformave të pakontrolluara cloud mund të ekspozojë të dhënat tuaja."
+                }
+            ]
+        },
+        "kush janë sulmuesit": {
+            "icon": "fas fa-user-secret",
+            "show_description": true,
+            "items": [
+                {
+                    "name": "Hakerët që targetojnë sektorët profesionalë?",
+                    "status": "future",
+                    "icon": "fas fa-user-ninja",
+                    "description": "Individë ose grupe që synojnë të vjedhin informacion të vlefshëm për qëllime komerciale ose përfitime të tjera."
+                },
+                {
+                    "name": "Organizatat kriminale të teknologjisë?",
+                    "status": "future",
+                    "icon": "fas fa-users",
+                    "description": "Grupet që përdorin teknologji të avancuar për mashtrime financiare dhe sulme ndaj bizneseve të mëdha."
+                },
+                {
+                    "name": "Sulmues shtetërorë?",
+                    "status": "future",
+                    "icon": "fas fa-globe",
+                    "description": "Sulme kibernetike për të marrë avantazh strategjik."
+                }
+            ]
+        },
+        "Praktika të sigurta": {
+            "icon": "fas fa-lock",
+            "show_description": true,
+            "items": [
+                {
+                    "name": "Ruani të dhënat e kompanisë!",
+                    "status": "future",
+                    "icon": "fas fa-briefcase",
+                    "description": "Përdorni mjete open-source si NextCloud që janë të konfigurueshme për industri të ndryshme pa ndarë të dhëna."
+                },
+                {
+                    "name": "Izolimi i të dhënave sensitive!",
+                    "status": "future",
+                    "icon": "fas fa-database",
+                    "description": "Përpunoni të dhëna të ndjeshme vetëm në serverë të dedikuar që nuk lidhen me rrjete publike."
+                },
+                {
+                    "name": "Enkriptimi i komunikimeve dhe të dhënave!",
+                    "status": "future",
+                    "icon": "fas fa-key",
+                    "description": "Sigurohuni që të dhënat dhe komunikimet të enkriptohen duke përdorur protokolle si TLS dhe mjete si GPG."
+                },
+                {
+                    "name": "Aktivizimi i autentifikimit me dy faktorë!",
+                    "status": "future",
+                    "icon": "fas fa-lock",
+                    "description": " Siguroni llogaritë tuaja me një shtresë shtesë sigurie duke përdorur OTP ose aplikacione të specializuara."
+                }
+            ]
+        }
+    },
+    "scenarios": [
+        {
+            "name": "Ekipi që përdor AI për analiza lokale të të dhënave",
+            "status": "achieved",
+            "icon": "fas fa-laptop-code",
+            "description": "Implementoni modele AI që funksionojnë në infrastrukturën lokale për të eliminuar rreziqet e rrjedhjes së të dhënave."
+        },
+        {
+            "name": "Konsulentët që shmangin platforma komerciale për ruajtjen e të dhënave",
+            "status": "achieved",
+            "icon": "fas fa-user-shield",
+            "description": "Përdorni alternativa private për ruajtjen dhe analizën e të dhënave, duke ruajtur kontrollin e plotë mbi to."
+        },
+        {
+            "name": "Organizatat që vendosin politika të qarta mbi përdorimin e AI",
+            "status": "future",
+            "icon": "fas fa-building",
+            "description": "Krijoni rregulla të brendshme për përdorimin e AI që mbrojnë privatësinë dhe përputhen me standardet më të mira të sigurisë."
+        }
+    ]
+}
