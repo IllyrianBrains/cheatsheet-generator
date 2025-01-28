@@ -1,0 +1,129 @@
+{
+    "title": "Siguria Kibernetike dhe Mbrojtja e të Dhënave: Konceptet dhe Praktikat",
+    "subtitle": "Strategji për të mbrojtur privatësinë dhe për të shmangur rreziqet në botën dixhitale.",
+    "entries": {
+        "përcaktimi": {
+            "icon": "fas fa-shield-alt",
+            "show_description": true,
+            "items": [
+                {
+                    "name": "Siguria kibernetike?",
+                    "status": "future",
+                    "icon": "fas fa-info-circle",
+                    "description": "Mbrojtja e rrjeteve, sistemeve dhe të dhënave dhe parandalimi i qasjeve të paautorizuara dhe sulmeve që mund të dëmtojnë entitetin."
+                },
+                {
+                    "name": "Privatësia e të dhënave?",
+                    "status": "future",
+                    "icon": "fas fa-user-shield",
+                    "description": "Mbrojtjen e të dhënave personale dhe ndalimi kategorik i përpunimit, ruajtjes, dhe ndarjes së tyre pa lejen tuaj."
+                }
+            ]
+        },
+        "probleme të mundshme": {
+            "icon": "fas fa-exclamation-triangle",
+            "show_description": false,
+            "items": [
+                {
+                    "name": "Phishing!",
+                    "status": "future",
+                    "icon": "fas fa-envelope",
+                    "description": "Marrja e emaileve të rreme ose lidhjeve (links) mashtruese për të vjedhur të dhënat tuaja personale ose kredencialet."
+                },
+                {
+                    "name": "Imitim!",
+                    "status": "future",
+                    "icon": "fas fa-user-ninja",
+                    "description": "Krijimi i identiteteve false për të mashtruar individët ose kompanitë për përfitime financiare ose dëmtim reputacioni."
+                },
+                {
+                    "name": "Vjedhja e të dhënave të kompanisë",
+                    "status": "future",
+                    "icon": "fas fa-briefcase",
+                    "description": "Komprometimi i të dhënave të ndjeshme të biznesit, duke përfshirë informacionin strategjik dhe të klientëve."
+                }
+            ]
+        },
+        "kush janë sulmuesit": {
+            "icon": "fas fa-user-secret",
+            "show_description": true,
+            "items": [
+                {
+                    "name": "Hakerët!",
+                    "status": "future",
+                    "icon": "fas fa-user-ninja",
+                    "description": "Individë që kërkojnë të vjedhin të dhëna për përfitime financiare ose për të fituar akses në sisteme apo të dhëna sensitive."
+                },
+                {
+                    "name": "Grupe të organizuara!",
+                    "status": "future",
+                    "icon": "fas fa-building",
+                    "description": "Grupet e sofistikuara që targetojnë organizatat për të vjedhur të dhëna ose për të ndërprerë operacionet."
+                },
+                {
+                    "name": "Brenda organizatës!",
+                    "status": "future",
+                    "icon": "fas fa-user-friends",
+                    "description": "Sulmuesit mund të jenë të brendshëm (punonjës), të cilët shfrytëzojnë dobësitë e sistemeve."
+                }
+            ]
+        },
+        "Praktika të mira": {
+            "icon": "fas fa-lock",
+            "show_description": true,
+            "items": [
+                {
+                    "name": "Fjalëkalime shumë të forta!",
+                    "status": "future",
+                    "icon": "fas fa-key",
+                    "description": "Përdorni fjalëkalime unike dhe të gjata me kombinime të shkronjave, numrave dhe simboleve. Përdorni mjete si Bitwarden."
+                },
+                {
+                    "name": "Hiqni trackers dhe historikun!",
+                    "status": "future",
+                    "icon": "fas fa-user-lock",
+                    "description": "Përdorni shfletues si Mozilla apo Brave, apo makina kërkimi si DuckDuckGo. Ulni volumin e informacionit rreth jush online."
+                },
+                {
+                    "name": "Përditësimi i softuerëve",
+                    "status": "future",
+                    "icon": "fas fa-sync-alt",
+                    "description": "Siguroni që pajisjet dhe programet tuaja të jenë gjithmonë të përditësuara për të adresuar dobësitë e sigurisë."
+                },
+                {
+                    "name": "Aktivizoni OneTimePassword (OTP)!",
+                    "status": "future",
+                    "icon": "fas fa-ban",
+                    "description": "Kategorikisht e nevojshme për aplikacione financiare apo hapësira ku ka të dhëna personale apo të kompanisë."
+                }
+            ]
+        }
+    },
+    "scenarios": [
+        {
+            "name": "Përdorimi i Wi-Fi publik në kafene ose aeroporte",
+            "status": "achieved",
+            "icon": "fas fa-wifi",
+            "description": "Përdorni një VPN për të enkriptuar trafikun, shmangni transaksionet financiare dhe mos lidheni në rrjete të paemërtuara ose të pasigurta."
+        },
+        {
+            "name": "Blerje online nga platforma të panjohura",
+            "status": "achieved",
+            "icon": "fas fa-shopping-cart",
+            "description": "Sigurohuni që faqja ka certifikatë SSL (https), përdorni karta virtuale për pagesa dhe mos ndani të dhëna të tepërta personale."
+        },
+        {
+            "name": "Pranimi i emaileve me oferta të dyshimta",
+            "status": "future",
+            "icon": "fas fa-envelope",
+            "description": "Verifikoni adresën e dërguesit, mos klikoni në lidhje ose shtojca të paqarta dhe përdorni softuer anti-phishing."
+        },
+        {
+            "name": "Ndarja e informacionit të ndjeshëm në grupe pune",
+            "status": "future",
+            "icon": "fas fa-user-lock",
+            "description": "Përdorni platforma të sigurta për ndarjen e të dhënave, si shërbime cloud të enkriptuara, dhe sigurohuni që informacioni të ndahet vetëm me persona të autorizuar."
+        }
+    ]
+
+}
